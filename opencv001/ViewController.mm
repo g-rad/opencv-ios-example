@@ -16,7 +16,7 @@
     self.videoCamera.defaultAVCaptureSessionPreset = AVCaptureSessionPresetHigh;
     self.videoCamera.defaultAVCaptureVideoOrientation = AVCaptureVideoOrientationPortrait;
     self.videoCamera.defaultFPS = 30;
-    self.videoCamera.useAVCaptureVideoPreviewLayer = YES;
+    //self.videoCamera.useAVCaptureVideoPreviewLayer = YES;
 }
 
 - (IBAction)actionStart:(id)sender {
